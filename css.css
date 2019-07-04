@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    width: 1024px;
+  }
+  .container .column {
+    max-width: 100%;
+    flex: 0 0 1024px;
+  }
+  .container img, .container canvas {
+    max-width: 100%;
+  }
+  .container canvas {
+    border: 1px solid #ccc;
+  }
+  .video-container {
+    width: 1024px;
+  }
+  input {
+      width: 200px;
+      height: 50;
+      color: green;
+  }
