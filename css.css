@@ -3,7 +3,7 @@
     width: 1024px;
   }
   .container .column {
-    max-width: 100%;
+    max-width: 40%;
     flex: 0 0 1024px;
   }
   .container img, .container canvas {

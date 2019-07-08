@@ -118,4 +118,6 @@ function applyContrast(data, contrast) {
         data[i + 2] = truncateColor(factor * (data[i + 2] - 128.0) + 128.0);
     }
 }
+var scaleFactor = 1.1;
+
 window.addEventListener('load', init);
